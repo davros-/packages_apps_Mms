@@ -363,6 +363,7 @@
     <!-- Settings item description for boolean group MMS sending/receiving -->
     <string name="pref_summary_mms_group_mms">Enable group MMS sending and receiving</string>
 
+
     <!-- The vibrate notification modes -->
     <string-array name="prefEntries_vibrateWhen">
         <!-- Always -->
@@ -855,6 +856,11 @@
     <!-- Which timestamps -->
     <string name="pref_title_mms_use_sent_timestamp">Original timestamps</string>
     <string name="pref_summary_mms_use_sent_timestamp">Display sent date instead of received date in timestamps</string>
+
+    <!-- Soft Keyboard Type -->
+    <string name="pref_keyboard_emoji">Emoji</string>
+    <string name="pref_keyboard_send">Enter to Send</string>
+    <string name="pref_keyboard_new_line">Enter for a new line</string>
 
     <!-- QUICKMESSAGE SUPPORT -->
     <!-- Preferences -->
