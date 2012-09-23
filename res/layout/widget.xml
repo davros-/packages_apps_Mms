@@ -57,7 +57,11 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="12dip"
             android:textSize="18sp"
+<<<<<<< HEAD
             android:textColor="@color/widget_unread_text" />
+=======
+            android:textColor="#CFCFCF" />
+>>>>>>> f8235c5... fully invert mms app for jb
         <ImageButton
             android:id="@+id/widget_compose"
             android:layout_width="wrap_content"

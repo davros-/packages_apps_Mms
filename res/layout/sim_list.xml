@@ -21,14 +21,22 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@color/background"
+=======
+    android:background="#ff000000"
+>>>>>>> f8235c5... fully invert mms app for jb
     android:layout_gravity="center">
 
     <ListView
         android:id="@+id/messages"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:cacheColorHint="@color/background"
+=======
+        android:cacheColorHint="#ff000000"
+>>>>>>> f8235c5... fully invert mms app for jb
         android:listSelector="@android:drawable/list_selector_background"
         android:divider="@android:drawable/divider_horizontal_bright"
         android:focusable="true"

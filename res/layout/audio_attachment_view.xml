@@ -75,7 +75,11 @@
             style="?android:attr/buttonStyleSmall"
             android:layout_width="100dip"
             android:layout_height="45dip"
+<<<<<<< HEAD
             android:textColor="@color/button_text"
+=======
+            android:textColor="@android:color/white"
+>>>>>>> f8235c5... fully invert mms app for jb
             android:text="@string/play" />
 
         <Button
@@ -83,7 +87,11 @@
             style="?android:attr/buttonStyleSmall"
             android:layout_width="100dip"
             android:layout_height="45dip"
+<<<<<<< HEAD
             android:textColor="@color/button_text"
+=======
+            android:textColor="@android:color/white"
+>>>>>>> f8235c5... fully invert mms app for jb
             android:text="@string/replace" />
 
         <Button
@@ -91,7 +99,11 @@
             style="?android:attr/buttonStyleSmall"
             android:layout_width="100dip"
             android:layout_height="45dip"
+<<<<<<< HEAD
             android:textColor="@color/button_text"
+=======
+            android:textColor="@android:color/white"
+>>>>>>> f8235c5... fully invert mms app for jb
             android:text="@string/remove" />
 
     </LinearLayout>

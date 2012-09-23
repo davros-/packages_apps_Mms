@@ -63,7 +63,11 @@
                     android:linksClickable="false"
                     android:gravity="right"
                     android:textAppearance="?android:attr/textAppearanceSmall"
+<<<<<<< HEAD
                     android:textColor="@color/message_sent"
+=======
+                    android:textColor="@android:color/white"
+>>>>>>> f8235c5... fully invert mms app for jb
                     android:textSize="16sp" />
 
                 <LinearLayout

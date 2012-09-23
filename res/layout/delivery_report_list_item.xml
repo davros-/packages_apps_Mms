@@ -21,7 +21,11 @@
 <com.android.mms.ui.DeliveryReportListItem xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:background="@color/background"
+=======
+    android:background="#ff000000"
+>>>>>>> f8235c5... fully invert mms app for jb
     android:layout_height="96dip">
 
     <LinearLayout
@@ -35,21 +39,33 @@
         <TextView android:id="@+id/recipient"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:textColor="@color/delivery_report_recipient"
+=======
+            android:textColor="#ffffffff"
+>>>>>>> f8235c5... fully invert mms app for jb
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:singleLine="true" />
 
         <TextView android:id="@+id/status"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:textColor="@color/delivery_report_status"
+=======
+            android:textColor="#ffffffff"
+>>>>>>> f8235c5... fully invert mms app for jb
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:singleLine="true" />
 
         <TextView android:id="@+id/delivery_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:textColor="@color/delivery_report_date"
+=======
+            android:textColor="#ffcfcfcf"
+>>>>>>> f8235c5... fully invert mms app for jb
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:singleLine="true" />
     </LinearLayout>
@@ -57,7 +73,11 @@
     <ImageView android:id="@+id/icon"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:background="@color/background"
+=======
+        android:background="#ff000000"
+>>>>>>> f8235c5... fully invert mms app for jb
         android:layout_weight="0"
         android:layout_marginRight="5dip"
         android:layout_gravity="right"/>

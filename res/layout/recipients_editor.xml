@@ -30,7 +30,11 @@
         android:layout_height="wrap_content"
         android:inputType="textFilter"
         android:layout_weight="1"
+<<<<<<< HEAD
         android:textColor="@color/compose_message_edit_text"
+=======
+        android:textColor="#FFFFFF"
+>>>>>>> f8235c5... fully invert mms app for jb
     />
 
     <ImageButton android:id="@+id/recipients_picker"
