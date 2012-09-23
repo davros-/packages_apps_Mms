@@ -42,11 +42,7 @@
 
         <EditText android:id="@+id/subject"
             android:textAppearance="?android:attr/textAppearanceMediumInverse"
-<<<<<<< HEAD
-            android:textColor="@color/compose_message_edit_text"
-=======
             android:textColor="@android:color/white"
->>>>>>> f8235c5... fully invert mms app for jb
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:capitalize="sentences"
@@ -120,11 +116,7 @@
             </ScrollView>
 
             <!-- Divider -->
-<<<<<<< HEAD
-            <View android:background="@color/dividers"
-=======
             <View android:background="#202020"
->>>>>>> f8235c5... fully invert mms app for jb
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
 
@@ -133,17 +125,10 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-<<<<<<< HEAD
-                android:background="@color/background" >
-
-                <EditText
-                    android:textColor="@color/compose_message_edit_text"
-=======
                 android:background="#000" >
 
                 <EditText
                     android:textColor="@android:color/white"
->>>>>>> f8235c5... fully invert mms app for jb
                     android:id="@+id/embedded_text_editor"
                     android:layout_width="0dip"
                     android:layout_gravity="bottom"
@@ -174,11 +159,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|bottom"
-<<<<<<< HEAD
-                        android:textColor="@color/compose_message_edit_text"
-=======
                         android:textColor="#cccfcfcf"
->>>>>>> f8235c5... fully invert mms app for jb
                         android:textSize="12sp"
                         android:textStyle="bold"
                         android:paddingLeft="3dip"

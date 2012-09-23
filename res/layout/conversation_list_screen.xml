@@ -28,13 +28,8 @@
         android:layout_height="match_parent"
         android:drawSelectorOnTop="false"
         android:scrollbarStyle="insideOverlay"
-<<<<<<< HEAD
-        android:background="@color/background"
-        android:cacheColorHint="@color/background"
-=======
         android:background="@android:color/black"
         android:cacheColorHint="@android:color/black"
->>>>>>> f8235c5... fully invert mms app for jb
         android:fadingEdgeLength="16dip" />
 
     <TextView android:id="@+id/empty"
