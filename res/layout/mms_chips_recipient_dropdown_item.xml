@@ -32,7 +32,7 @@
 
         <TextView
             android:id="@android:id/title"
-            android:textColor="@drawable/list_item_font_primary"
+            android:textColor="#efefef"
             android:textSize="18sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
 
             <TextView
                 android:id="@android:id/text1"
-                android:textColor="@drawable/list_item_font_secondary"
+                android:textColor="#efefef"
                 android:textSize="14sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
 
             <TextView
                 android:id="@android:id/text2"
-                android:textColor="@drawable/list_item_font_secondary"
+                android:textColor="#efefef"
                 android:textSize="10sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
