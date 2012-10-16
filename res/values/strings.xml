@@ -103,6 +103,8 @@
     <string name="copy_message_text">Copy text</string>
     <!-- Header for context menu on an individual message -->
     <string name="message_options">Message options</string>
+    <!-- Header for context menu on an individual slideshow -->
+    <string name="slideshow_options">Slideshow options</string>
 
     <!-- Button text on edit slide screen indicating the user wants to finish editing that slide -->
     <string name="done">Done</string>
@@ -353,6 +355,16 @@
     <string name="pref_title_notification_ringtone">Choose ringtone</string>
     <!-- Settings item for setting the number of message to save for each conversation -->
     <string name="pref_messages_to_save">Set number of messages to save</string>
+<<<<<<< HEAD
+=======
+    <!-- Settings item for the soft keyboard picker -->
+    <string name="pref_title_input_type">Soft keyboard type</string>
+    <string name="pref_summary_input_type">Select the soft keyboard to use when composing messages</string>
+    <!-- Settings item for boolean option for group MMS sending/receiving -->
+    <string name="pref_title_mms_group_mms">Group messaging</string>
+    <!-- Settings item description for boolean group MMS sending/receiving -->
+    <string name="pref_summary_mms_group_mms">Enable group MMS sending and receiving</string>
+>>>>>>> bb7ac6c... Add group mms threading (1/3)
 
     <!-- The vibrate notification modes -->
     <string-array name="prefEntries_vibrateWhen">
