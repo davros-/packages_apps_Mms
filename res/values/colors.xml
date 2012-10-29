@@ -47,14 +47,14 @@
     <color name="compose_message_text_counter">#cc333333</color>
     <color name="actionbar_text">#ccffffff</color>
     <color name="delete_thread_dialog">#000000</color>
-    <color name="delivery_report_header">#ffffff</color>
-    <color name="delivery_report_recipient">#000000</color>
-    <color name="delivery_report_status">#000000</color>
-    <color name="delivery_report_date">#000000</color>
+    <color name="delivery_report_header">#222222</color>
+    <color name="delivery_report_recipient">#222222</color>
+    <color name="delivery_report_status">#111111</color>
+    <color name="delivery_report_date">#111111</color>
     <color name="button_text">#000000</color>
     <color name="message_received">#ffffff</color>
     <color name="message_sent">#ffffff</color>
-    <color name="widget_unread_text">#777777</color>
+    <color name="widget_unread_text">#222222</color>
     <color name="widget_loading">#000000</color>
 
 	<!-- New Background colors from layouts to make theme chooser apk easier to theme -->
