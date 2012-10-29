@@ -370,9 +370,6 @@ public class MessagingPreferenceActivity extends PreferenceActivity
             // Update the actual "enable notifications" value that is stored in secure settings.
             enableNotifications(mEnableNotificationsPref.isChecked(), this);
 
-        } else if (preference == mMmsGroupMmsPref) {
-            enableGroupMMS(mMmsGroupMmsPref.isChecked(), this);
-
         } else if (preference == mEnableQuickMessagePref) {
             // Update the actual "enable quickmessage" value that is stored in secure settings.
             enableQuickMessage(mEnableQuickMessagePref.isChecked(), this);
