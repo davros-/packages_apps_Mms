@@ -174,12 +174,7 @@ public class MessageItem {
                 }
                 mTimestamp = MessageUtils.formatTimeStampString(context, date, mFullTimestamp);
             }
-            // Use a separate thread for this so its not running on the UI thread
-	    Thread getContact = new Thread() {
-              public synchronized void run() {
-                mContact = Contact.get(getMmsSender(mMsgId, mContext), false).getName();
-              }
-            };
+            new MmsSenderQueryTask(mMsgId, mContext).execute();
             getContact.start();
             mLocked = cursor.getInt(columnsMap.mColumnSmsLocked) != 0;
             mErrorCode = cursor.getInt(columnsMap.mColumnSmsErrorCode);
