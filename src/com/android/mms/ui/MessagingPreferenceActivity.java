@@ -103,6 +103,8 @@ public class MessagingPreferenceActivity extends PreferenceActivity
     private CheckBoxPreference mMmsRetrievalDuringRoaming;
     private Preference mManageSimPref;
     private Preference mClearHistoryPref;
+    private CheckBoxPreference mMmsAutoRetrieval;
+    private CheckBoxPreference mMmsRetrievalDuringRoaming;
     private ListPreference mVibrateWhenPref;
     private CheckBoxPreference mEnableNotificationsPref;
     private Recycler mSmsRecycler;
@@ -157,10 +159,8 @@ public class MessagingPreferenceActivity extends PreferenceActivity
         mGestureSensitivity = (ListPreference) findPreference(GESTURE_SENSITIVITY);
 
         // Mms auto-retrieval
-        boolean useMmsAutoRetrieval =
-                SystemProperties.getBoolean(TelephonyProperties.PROPERTY_MMS_AUTO_RETRIEVAL, true);
-        boolean useMmsRetrievalDuringRoaming =
-                SystemProperties.getBoolean(TelephonyProperties.PROPERTY_MMS_AUTO_RETRIEVAL_ON_ROAMING, false);
+        boolean useMmsAutoRetrieval = SystemProperties.getBoolean(TelephonyProperties.PROPERTY_MMS_AUTO_RETRIEVAL, true);
+        boolean useMmsRetrievalDuringRoaming = SystemProperties.getBoolean(TelephonyProperties.PROPERTY_MMS_AUTO_RETRIEVAL_ON_ROAMING, false);
         mMmsAutoRetrieval = (CheckBoxPreference) findPreference(AUTO_RETRIEVAL);
         mMmsAutoRetrieval.setChecked(useMmsAutoRetrieval);
         mMmsRetrievalDuringRoaming = (CheckBoxPreference) findPreference(RETRIEVAL_DURING_ROAMING);
