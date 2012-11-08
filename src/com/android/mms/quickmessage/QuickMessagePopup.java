@@ -40,6 +40,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.text.InputFilter;
 import android.text.InputFilter.LengthFilter;
+import android.text.InputType;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -142,6 +143,7 @@ public class QuickMessagePopup extends Activity implements
     private boolean mFullTimestamp = false;
     private boolean mStripUnicode = false;
     private boolean mEnableEmojis = false;
+    private int mInputMethod;
 
     // Message pager
     private ViewPager mMessagePager;
@@ -177,6 +179,8 @@ public class QuickMessagePopup extends Activity implements
         mDarkTheme = prefs.getBoolean(MessagingPreferenceActivity.QM_DARK_THEME_ENABLED, false);
         mStripUnicode = prefs.getBoolean(MessagingPreferenceActivity.STRIP_UNICODE, false);
         mEnableEmojis = prefs.getBoolean(MessagingPreferenceActivity.ENABLE_EMOJIS, false);
+        mInputMethod = Integer.parseInt(prefs.getString(MessagingPreferenceActivity.INPUT_TYPE,
+                Integer.toString(InputType.TYPE_TEXT_VARIATION_SHORT_MESSAGE)));
 
         // Set the window features and layout
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -1029,6 +1033,10 @@ public class QuickMessagePopup extends Activity implements
                 }
 
                 // Set the remaining values
+                qmReplyText.setInputType(InputType.TYPE_CLASS_TEXT | mInputMethod
+                        | InputType.TYPE_TEXT_FLAG_AUTO_CORRECT
+                        | InputType.TYPE_TEXT_FLAG_CAP_SENTENCES
+                        | InputType.TYPE_TEXT_FLAG_MULTI_LINE);
                 qmReplyText.setText(qm.getReplyText());
                 qmReplyText.setSelection(qm.getReplyText().length());
                 qmReplyText.addTextChangedListener(new QmTextWatcher(mContext, qmTextCounter, qmSendButton,
@@ -1202,3 +1210,4 @@ public class QuickMessagePopup extends Activity implements
 
 
 }
+
