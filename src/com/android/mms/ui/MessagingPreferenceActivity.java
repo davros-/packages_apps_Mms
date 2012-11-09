@@ -105,8 +105,6 @@ public class MessagingPreferenceActivity extends PreferenceActivity
     private CheckBoxPreference mMmsRetrievalDuringRoaming;
     private Preference mManageSimPref;
     private Preference mClearHistoryPref;
-    private CheckBoxPreference mMmsAutoRetrieval;
-    private CheckBoxPreference mMmsRetrievalDuringRoaming;
     private ListPreference mVibrateWhenPref;
     private CheckBoxPreference mEnableNotificationsPref;
     private Recycler mSmsRecycler;
