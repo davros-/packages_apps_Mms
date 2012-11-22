@@ -41,5 +41,10 @@
     <color name="widget_subject_text_color_unread">#ffcfcfcf</color>
 
     <!-- Color of the text for buttons in the action bar  -->
+<<<<<<< HEAD
     <color name="action_bar_button_text_color">#ffffffff</color>
+=======
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+
+>>>>>>> 2ae91da... Forward port Templates functionality
 </resources>
