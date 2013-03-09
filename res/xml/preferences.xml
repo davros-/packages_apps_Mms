@@ -142,6 +142,12 @@
             android:entryValues="@array/prefValues_vibrateWhen"
             android:dialogTitle="@string/prefDialogTitle_vibrateWhen" />
 
+        <CheckBoxPreference android:key="pref_key_sms_breath"
+            android:title="@string/sms_breath"
+            android:summary="@string/sms_breath_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
         <com.android.mms.preferences.CustomVibrateListPreference
             android:layout="?android:attr/preferenceLayoutChild"
             android:key="pref_key_mms_notification_vibrate_pattern"

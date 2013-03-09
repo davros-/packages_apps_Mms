@@ -919,5 +919,8 @@
     <string name="cannot_find_contact">Can\'t insert information of the chosen contact</string>
     <string name="insert_contact_info_positive_button">Insert</string>
 
-    <!-- CYANOGENMOD EDITS END -->
+   <!-- Breathing Notifications -->
+   <string name="sms_breath">Breathing SMS</string>
+   <string name="sms_breath_summary">Will give your sms notifications a breathing effect in the statusbar.</string>
+
 </resources>
