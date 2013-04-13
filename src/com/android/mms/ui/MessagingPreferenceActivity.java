@@ -157,14 +157,10 @@ public class MessagingPreferenceActivity extends PreferenceActivity
     private CheckBoxPreference mEnableQmCloseAllPref;
     private CheckBoxPreference mEnableQmDarkThemePref;
 
-<<<<<<< HEAD
-=======
-    private CheckBoxPreference mDirectCall;
 
     private EditTextPreference mSignature;
     private String mSignatureText;
 
->>>>>>> 9ae044f... Add Signature to messages
     @Override
     protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -198,10 +194,6 @@ public class MessagingPreferenceActivity extends PreferenceActivity
         mMmsReadReportPref = findPreference("pref_key_mms_read_reports");
         mMmsLimitPref = findPreference("pref_key_mms_delete_limit");
         mClearHistoryPref = findPreference("pref_key_mms_clear_history");
-<<<<<<< HEAD
-=======
-        mDirectCall = (CheckBoxPreference) findPreference("direct_call_pref");
->>>>>>> 9ae044f... Add Signature to messages
         mEnableNotificationsPref = (CheckBoxPreference) findPreference(NOTIFICATION_ENABLED);
         mEnablePrivacyModePref = (CheckBoxPreference) findPreference(PRIVACY_MODE_ENABLED);
         mVibrateWhenPref = (ListPreference) findPreference(NOTIFICATION_VIBRATE_WHEN);
