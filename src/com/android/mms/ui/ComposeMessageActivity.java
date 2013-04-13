@@ -2897,9 +2897,6 @@ public class ComposeMessageActivity extends Activity
             }
         }
 
-        menu.add(0, MENU_INSERT_CONTACT_INFO, 0, R.string.menu_insert_contact_info)
-            .setIcon(android.R.drawable.ic_menu_add);
-
         if (getRecipients().size() > 1) {
             menu.add(0, MENU_GROUP_PARTICIPANTS, 0, R.string.menu_group_participants);
         }
@@ -4785,9 +4782,6 @@ public class ComposeMessageActivity extends Activity
 
         final CharSequence[] entries = (contactId >= 0) ? getContactInfoData(contactId) : null;
 
-        if (contactId < 0 || entries == null) {
-            Toast.makeText(this, R.string.cannot_find_contact, Toast.LENGTH_SHORT).show();
-            return;
         }
 
         final boolean[] itemsChecked = new boolean[entries.length];
@@ -4803,8 +4797,6 @@ public class ComposeMessageActivity extends Activity
             }
         });
 
-        builder.setPositiveButton(R.string.insert_contact_info_positive_button,
-                new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 for (int i = 0; i < entries.length; i++) {
