@@ -21,13 +21,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/list_background"
-    android:textColor="@android:color/white"
     android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/recipients_subject_linear"
-	android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="5dip"
@@ -41,12 +38,11 @@
             android:layout="@layout/recipients_editor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-	    android:textColor="@android:color/white"
         />
 
         <EditText android:id="@+id/subject"
             android:textAppearance="?android:attr/textAppearanceMediumInverse"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:capitalize="sentences"
@@ -120,7 +116,7 @@
             </ScrollView>
 
             <!-- Divider -->
-            <View android:background="#202020"
+            <View android:background="#eeeeee"
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
 
@@ -129,7 +125,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#000000" >
+                android:background="#fff" >
 
                 <ImageButton
                     android:id="@+id/quick_emoji_button_mms"
@@ -144,7 +140,7 @@
                 />
 
                 <EditText
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:id="@+id/embedded_text_editor"
                     android:layout_width="0dip"
                     android:layout_gravity="bottom"
@@ -175,7 +171,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|bottom"
-                        android:textColor="#ffff0000"
+                        android:textColor="#cc333333"
                         android:textSize="12sp"
                         android:textStyle="bold"
                         android:paddingLeft="3dip"
