@@ -39,7 +39,6 @@
     <color name="widget_subject_text_color_read">#777777</color>
     <color name="widget_subject_text_color_unread">#555555</color>
 
-<<<<<<< HEAD
     <!-- Color of the text for buttons in the action bar  -->
     <color name="action_bar_button_text_color">#FFFFFF</color>
 
@@ -65,6 +64,4 @@
     <color name="quickmessage_body_light_bg">#fff3f3f3</color>
     <color name="dividers">#eeeeee</color>
     <color name="transparent">#00000000</color>
-=======
->>>>>>> parent of b351050... Base JB Mms inverted
 </resources>
