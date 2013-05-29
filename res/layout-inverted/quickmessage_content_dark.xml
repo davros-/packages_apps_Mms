@@ -84,7 +84,7 @@
         android:fillViewport="true"
         android:minHeight="72dp"
         android:paddingTop="4dp"
-        android:background="@color/quickmessage_body_dark_bg"
+        android:background="#ff000000"
         android:paddingBottom="4dp" >
 
         <TextView
