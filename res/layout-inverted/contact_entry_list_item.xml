@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:paddingRight="5dip"
-        android:textColor="@color/message_sent"
+        android:textColor="#ffffffff"
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_gravity="center" />
@@ -39,7 +39,7 @@
     <TextView android:id="@+id/text_entry_data"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textColor="@color/text_hairline"
+        android:textColor="#ffffffff"
         android:gravity="left|center_vertical|clip_horizontal"
         android:singleLine="true"
         android:textAppearance="?android:attr/textAppearanceMedium"
